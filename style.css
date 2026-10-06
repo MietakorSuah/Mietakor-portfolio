@@ -339,11 +339,89 @@ footer{
 }
 
 @media (max-width: 800px) {
+
+    /* Navigation */
     .nav-links,
-    .nav-btn {display: none;}
+    .nav-btn {
+        display: none;
+    }
+
+    /* General sections */
+    section {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 120px 8% 80px;
+        display: block;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        margin-top: 50px;
+    }
+
+    .image-box {
+        max-width: 100%;
+    }
+
+    /* About */
+    .about {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-content p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    /* Skills */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid > div {
+        padding: 28px;
+    }
+
+    /* Portfolio */
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .project-image img {
+        width: 100%;
+        display: block;
+    }
+
+    /* Contact */
+    .contact-content {
+        max-width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    /* Footer */
     .footer-content {
-    flex-direction: column;
-    align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
 }
 
 .footer-links {
